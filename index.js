@@ -29,7 +29,6 @@ ioHook.on("keypress", event => {
       const trimmed = answer.trim();
       if (trimmed === 'Y' || trimmed === 'y') {        
         newGame();
-        rl.close();
       } else {
         process.exit();
       }
