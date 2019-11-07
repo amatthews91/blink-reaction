@@ -9,7 +9,7 @@ const readline = require('readline');
 
 const blink = new Blink1();
 const SPACE_BAR = 32;
-const MAX_TIME_MS = process.argv[2];
+const MAX_TIME_MS = process.argv[2] * 1000;
 
 let startTime;
 
